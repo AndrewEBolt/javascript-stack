@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:AndrewEBolt/javascript-stack.git",
   "author": "Andrew Bolt",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "color": "^1.0.3"
+  }
 }
