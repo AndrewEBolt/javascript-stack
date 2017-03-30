@@ -1,0 +1,9 @@
+{
+  "name": "javascript-stack",
+  "version": "1.0.0",
+  "description": "a launching point for a new front-end project, built from scratch",
+  "main": "index.js",
+  "repository": "git@github.com:AndrewEBolt/javascript-stack.git",
+  "author": "Andrew Bolt",
+  "license": "MIT"
+}
