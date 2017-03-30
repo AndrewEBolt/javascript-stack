@@ -1,9 +1,13 @@
 {
 	"extends": "airbnb",
+	"plugins": [
+		"compat"
+	],
 	"rules": {
 		"indent": ["error", "tab"],
 		"semi": [2, "never"],
 		"no-tabs": "off",
-		"no-unexpected-multiline": 2
+		"no-unexpected-multiline": 2,
+		"compat/compat": 2
 	}
 }
