@@ -1,0 +1,9 @@
+{
+	"extends": "airbnb",
+	"rules": {
+		"indent": ["error", "tab"],
+		"semi": [2, "never"],
+		"no-tabs": "off",
+		"no-unexpected-multiline": 2
+	}
+}
