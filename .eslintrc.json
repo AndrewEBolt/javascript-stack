@@ -17,6 +17,7 @@
 		"semi": [2, "never"],
 		"no-tabs": "off",
 		"no-unexpected-multiline": 2,
-		"compat/compat": 2
+		"compat/compat": 2,
+		"react/jsx-indent": [2, "tab"]
 	}
 }

@@ -1,4 +1,5 @@
 // @flow
+import webpack from 'webpack'
 
 import path from 'path'
 
@@ -7,6 +8,7 @@ import { isProd } from './src/shared/util'
 
 export default {
 	entry: [
+		'react-hot-loader/patch',
 		'./src/client/',
 	],
 	output: {
@@ -25,5 +27,12 @@ export default {
 	},
 	devServer: {
 		port: WDS_PORT,
+		hot: true,
 	},
+	plugins: [
+		new webpack.optimize.OccurrenceOrderPlugin(),
+		new webpack.HotModuleReplacementPlugin(),
+		new webpack.NamedModulesPlugin(),
+		new webpack.NoEmitOnErrorsPlugin(),
+	],
 }
