@@ -19,5 +19,10 @@
 		"no-unexpected-multiline": 2,
 		"compat/compat": 2,
 		"react/jsx-indent": [2, "tab"]
+	},
+	"settings": {
+		"polyfills": [
+			"fetch"
+		]
 	}
 }
